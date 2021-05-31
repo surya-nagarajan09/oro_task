@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>ORO</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row" id="nav-bar">
+      <div class="col-12">
+        <img id="logo" src="https://orocorp.in/assets/img/logo.png">
+        <p id="user-details">Logged in as <span id="user">dev@orocorp.in</span></p>
+        <button type="button" class="btn btn-danger" id="logout">Logout</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <input id="search-box" placeholder="Search Partners">
+        <div id="partner-details">
+        </div>
+      </div>
+      <div id="partner" class="col-9">
+        <div class='row'>
+          <div class="col-12">
+            <div id="partner-head">
+              <h6>PARTNER DETAILS</h6>
+           </div>
+           <div id="partner-dashboard">
+             <div id="content-1">
+               <h6 class="head">NAME</h6>
+               <h6 class="value">Sivasubramaniyan </h6>
+             </div>
+             <div  class="content">
+              <h6  class="head">PARTNER ID</h6>
+              <h6 class="value">OMA0005</h6>
+            </div>
+            <div  class="content">
+              <h6  class="head">MOBILE NUMBER</h6>
+              <h6 class="value">9864647464</h6>
+            </div>
+            <div  class="content">
+              <h6  class="head">STATUS</h6>
+              <h6 class="value">OMA464646</h6>
+            </div>
+            <button id="call" class="btn btn-warning"><span>Call Partner</span></button>
+           </div>
+          </div>
+          <div class="col-12">
+             <div id="map"></div>  
+           </div>
+          </div>  
+          <div class="row">
+            <div class="col-5">
+                <div id="container">
+                  <div >
+                    <p class="head">STOP NO.</p>
+                    <p class="value">1</p>
+                  </div>
+                  <div>
+                    <p class="head">LAT</p>
+                    <p class="value">83.5811</p>
+                  </div>
+                  <div>
+                    <p class="head">LONG</p>
+                    <p class="value">13.68946</p>
+                  </div>
+                  <div>
+                    <p class="head">TIME</p>
+                    <p class="value">8.35PM</p>
+                  </div>
+              </div>
+           </div>
+           <div class="col-2">
+           </div>
+            <div class="col-5">
+              <div id="container">
+                <div>
+                  <p class="head">STOP NO.</p>
+                  <p class="value">2</p>
+                </div>
+                <div>
+                  <p class="head">LAT</p>
+                  <p class="value">83.5811</p>
+                </div>
+                <div>
+                  <p class="head">LONG</p>
+                  <p class="value">13.68946</p>
+                </div>
+                <div>
+                  <p class="head">TIME</p>
+                  <p class="value">8.35PM</p>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <div id="container-1">
+                <div >
+                  <p class="head">STOP NO.</p>
+                  <p class="value">3</p>
+                </div>
+                <div>
+                  <p class="head">LAT</p>
+                  <p class="value">83.5811</p>
+                </div>
+                <div>
+                  <p class="head">LONG</p>
+                  <pc class="value">13.68946</p>
+                </div>
+                <div>
+                  <p class="head">TIME</p>
+                  <p class="value">8.35PM</p>
+                </div>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-5">
+              <div id="container-1">
+                <div >
+                  <p class="head">STOP NO.</p>
+                  <p class="value">4</p>
+                </div>
+                <div>
+                  <p class="head">LAT</p>
+                  <p class="value">83.5811</p>
+                </div>
+                <div>
+                  <p class="head">LONG</p>
+                  <p class="value">13.68946</p>
+                </div>
+                <div>
+                  <p class="head">TIME</p>
+                  <p class="value">8.35PM</p>
+                </div>
+               </div>
+            </div>
+          </div>
+          </div>         
+        </div>
+        </div> 
+        </div>    
+    </div>
+  </div> 
+  <script src="index.js"></script> 
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRhIqBbTjf-RvJ_MpA_ya038Zku3x2Z2s&callback=initMap">
+</script>
+</body>
+</html>

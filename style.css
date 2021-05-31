@@ -1,0 +1,241 @@
+/* nav bar*/
+#nav-bar{
+    position: absolute;
+    width:1440px;
+    height:75px;
+    margin-top:1px;
+    background-color: white;
+    display: block;
+    margin-left: 0px;
+}
+
+#logo{
+    position: absolute;
+    width:80px;
+    height:35.14px;
+    margin-top:21px;
+    margin-left:20px;
+}
+#user-details{
+    position: absolute;
+    width:208px;
+    height:22px;
+    top:27px;
+    left:1096px;
+    font-weight: 400;
+    font-size:16px;
+    font-family: Nunito Sans;
+    color:black;
+}
+#user{
+    font-weight:bold;
+
+}
+#logout{
+    width:96px;
+    height:36px;
+    margin-top:20px;
+    margin-left:1324px;
+    border-radius:4px;
+    font-family: Nunito Sans;
+    font-weight:800;
+    font-size:14px;
+}
+
+#search-box{
+    position: absolute;
+    width:267px;
+    height:40px;
+    margin-top:75px;
+    margin-left:0px;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.innerdiv{
+    width:268px;
+    height:111px;
+    background-color:rgba(255, 255, 255, 1);
+}
+
+
+#partner-details{
+    position:absolute;
+    margin-top:120px;
+    background-color:rgba(255, 255, 255,1);
+    display:block;
+
+}
+.partner-name{
+    font-family: Nunito Sans;
+    font-weight:700;
+    font-size: 16px;
+    width:71px;
+    height:22px;
+    margin-left:20px;
+}
+.partner-id{
+    font-family:Nunito Sans;
+    font-weight:700;
+    font-style: normal;
+    font-size: 12px;
+    width:147px;
+    height:16px;
+    margin-left:20px;
+    opacity: 60%;
+}
+.partner-status{
+    font-family: Nunito Sans;
+    font-weight:700;
+    font-style: normal;
+    font-size: 12px;
+    width:101px;
+    height:16px;
+    margin-left:5px;
+    margin-bottom:2px;
+}
+
+.active{
+    width:8px;
+    height:8px;
+    margin-left:20px;
+    background-color:rgba(22, 160, 133, 1);
+    border-radius: 50%;
+}
+.idle{
+    width:8px;
+    height:8px;
+    margin-left:20px;
+    background-color:rgba(240, 184, 89, 1);
+    border-radius: 50%;
+}
+.inactive{
+    width:8px;
+    height:8px;
+    margin-left:20px;
+    background-color:rgba(207, 33, 33, 1);
+    border-radius: 50%;
+}
+
+.rightIcon{
+    width:15px;
+    height:15px;
+    margin-left:220px;
+    margin-top:0px;
+   
+}
+#partner{
+    background-color: "#E5E5E5";
+}
+
+#partner-head{
+position: absolute;
+width: 144px;
+height: 22px;
+margin-left:50px;
+top: 125px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color:rgba(0, 0, 0, 1);
+}
+
+#partner-dashboard{
+    position: absolute;
+    width:1078px;
+    height:82px;
+    margin-left:50px;
+    margin-top:159px;
+    border:1px solid #d2d2d2;
+
+}
+#call-button{
+    width:86px;
+    height:30px;
+    margin-top:185px;
+    margin-left:990px;
+    border:1px;
+    border-radius:20px;
+    font-family:Nunito Sans;
+    font-weight: 800;
+    text-align: center;
+}
+#partner-dashboard{
+    width:1078px;
+    height:82px;
+    margin-top:159px;
+    margin-left:50px;
+    align-items: center;
+    display:flex;
+}
+#text-display{
+    display:flex;
+    text-indent: 150px;
+    align-items: center;
+    font-weight:600;
+}
+
+#map{
+    width:1087px;
+    height:438px;
+    left:50px;
+    top:271px;
+}
+.content{
+    margin-left:100px;;
+}
+#content-1{
+    margin-left: 25px;
+}
+.head{
+ font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+color: #575757;
+}
+.value{
+width: 86px;
+height: 22px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+#call{
+margin-left:180px;
+width: 86px;
+ height: 30px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+border-radius: 20px;
+}
+
+#container{
+    display:flex;
+    width:536px;
+    height:59px;
+    margin-top:280px;
+    margin-left:50px;
+
+}
+#container-1{
+    display:flex;
+    width:536px;
+    height:59px;
+    margin-top:15px;
+    margin-left:50px;
+}
